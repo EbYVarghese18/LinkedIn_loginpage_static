@@ -28,9 +28,14 @@
 .main .signin{
     font-weight: bold;
 }
+.main a{
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: bold;
+}
 .main p{
     padding-left: 23px;
-    padding-top: 23px;
+    padding-top: 30px;
     font-size: 30px;
     margin: 0 !important;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,10 +55,14 @@
     border-radius: 5px;
     font-size: 17px;
 }
+.main input:focus{
+    outline-color: #0a66c2;
+}
 .main .forgotpassword{
     font-size: 15px;
     color: #0a66c2;
     padding-bottom: 20px;
+    padding-top: 15px!important;
 }
 .main button{
     cursor: pointer;
@@ -94,6 +103,7 @@
 }
 .footer span{
     color: #0a66c2;
+    font-weight: bold;
 }
 .footer p{
     padding-bottom: 20px;
@@ -122,4 +132,14 @@
 table{
     margin-left: 23px;
     margin-right: 23px;
+}
+.footer select{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    outline: 0px;
+    width: 80px;
+    margin-left: 10px;
+    cursor: pointer;
 }
