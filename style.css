@@ -4,7 +4,7 @@
     height: 29px;
 }
 .container{
-    display: flex;
+    display: flex;  
     justify-content: space-between;
 }
 
@@ -59,6 +59,25 @@
 .main input:focus{
     outline-color: #0a66c2;
 }
+
+.form-group {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    justify-content: stretch !important;
+}
+
+.password_label {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #0a66c2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .main .forgotpassword{
     font-size: 15px;
     color: #0a66c2;
